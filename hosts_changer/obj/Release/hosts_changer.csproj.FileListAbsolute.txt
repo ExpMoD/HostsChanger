@@ -1,0 +1,13 @@
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Release\Host Changer.exe.config
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Release\Host Changer.exe.manifest
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Release\Host Changer.application
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Release\Host Changer.exe
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Release\Host Changer.pdb
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Release\hosts_changer.MainForm.resources
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Release\hosts_changer.Properties.Resources.resources
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Release\hosts_changer.csproj.GenerateResource.cache
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Release\hosts_changer.csproj.CoreCompileInputs.cache
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Release\Host Changer.exe.manifest
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Release\Host Changer.application
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Release\Host Changer.exe
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Release\Host Changer.pdb

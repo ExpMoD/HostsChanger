@@ -1,0 +1,14 @@
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\hosts_changer.csprojAssemblyReference.cache
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\hosts_changer.Properties.Resources.resources
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\hosts_changer.csproj.GenerateResource.cache
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\hosts_changer.csproj.CoreCompileInputs.cache
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\hosts_changer.MainForm.resources
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Debug\Host Changer.exe.config
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Debug\Host Changer.exe.manifest
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Debug\Host Changer.application
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Debug\Host Changer.exe
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\bin\Debug\Host Changer.pdb
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\Host Changer.exe.manifest
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\Host Changer.application
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\Host Changer.exe
+C:\Users\ExpMo\source\repos\hosts_changer\hosts_changer\obj\Debug\Host Changer.pdb

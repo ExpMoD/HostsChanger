@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Host Changer.exe" version="1.0.0.1" publicKeyToken="bb00f2322bf688c5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon-host2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Host Changer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Host Changer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень контроля учетных записей Windows замените узел 
+          requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Если вы хотите использовать виртуализацию файлов и реестра для обратной 
+         совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Host Changer.exe" size="40416">
+      <assemblyIdentity name="Host Changer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ACbIt9f8r31t/crmc9ZfREiETuvxRSb4Vbluoobkju8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Host Changer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon-host2.ico" size="10283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aEAcBDqPNSDJzuIGPhwk7I7Ru0y4xMXETlxrd1Xl2hk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-58N504R\ExpMo" issuerKeyHash="7efa63651a8b91fd3454f85b0cdcc51d2a06698d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rZiWCbEmnA/VTxPzoaz341TdLssCcUpNRDgbIqS/Bac=</DigestValue></Reference></SignedInfo><SignatureValue>rM+iNkufpvxvWsTSgPE5KYJsf/xT5YQeEKZmUxrYatAjomT0eO1FAtnWGLcFy/oyPyTxQCaVBhGIZ0uNp6zRfokIMro0p04hOOSLdJAvICKIYdEhpwVCMQ6jANwFH2HaNzYrLqJut73/90WZ+iFNkYcYxPlrKm5qEQe7r916AqQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2YabjeUVhGEl4Ilz+v67+kjRnpsTQPLCkZjx/ZP/U1S1SATcIqKGgTPX3HSqkrkWZGGljdzLDt5ws/SrnZVe5Oqwy24ujPK3yPtot93PU2cjMzhcl5r2zrteAI2FiAc3BImDvxR6FpSteLHv7APJMEwqU660X5JUAlLYHOUgQeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a705bfa4221b38444d4a7102cb2edd54e3f7aca1f3134fd50f9c26b1099698ad" Description="" Url=""><as:assemblyIdentity name="Host Changer.exe" version="1.0.0.1" publicKeyToken="bb00f2322bf688c5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-58N504R\ExpMo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AZIXy0LXgSXIzebkILZvoWYFAXbbDoEKgU+409+xzWM=</DigestValue></Reference></SignedInfo><SignatureValue>AUrfeNVn5JKbrN9DSw9QmREJ7PwTHOZs59z02GzwmAhbf+ecdOQcs8a4hBYvP5wl866ev1TWQMe/3azkx92/e1B1kmfDaTsoTrzeD3uCkFclotNDeOIyRsNg7kgE7GbclTaxnrziv79TVcF1JganDnrVjWacqKcJMiTvK4fFsRE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2YabjeUVhGEl4Ilz+v67+kjRnpsTQPLCkZjx/ZP/U1S1SATcIqKGgTPX3HSqkrkWZGGljdzLDt5ws/SrnZVe5Oqwy24ujPK3yPtot93PU2cjMzhcl5r2zrteAI2FiAc3BImDvxR6FpSteLHv7APJMEwqU660X5JUAlLYHOUgQeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQH2vsorBBkItHmqfOJapRoDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUAOABOADUAMAA0AFIAXABFAHgAcABNAG8wHhcNMjEwNzE5MDQ0NjIyWhcNMjIwNzE5MTA0NjIyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUAOABOADUAMAA0AFIAXABFAHgAcABNAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANmGm43lFYRhJeCJc/r+u/pI0Z6bE0DywpGY8f2T/1NUtUgE3CKihoEz19x0qpK5FmRhpY3cyw7ecLP0q52VXuTqsMtuLozyt8j7aLfdz1NnIzM4XJea9s67XgCNhYgHNwSJg78UehaUrXix7+wDyTBMKlOutF+SVAJS2BzlIEHhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAmr/oqfYuxRAE4YT0FrSh4F59lhzu/wfc4WOqHtVmPadSh+ueGy2VbGIHWJYYfxiT7ItXwXD/awg1gjFV1kSr4jFYLqsnbkqjziwAisa6xg6gVkb/cyKxvzl16+gABWbrMwZVqnZCnvgW59WPL4uXu+q58JOdXyHMlJ0iQJIgtaA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
