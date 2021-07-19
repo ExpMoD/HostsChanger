@@ -19,8 +19,7 @@ namespace hosts_changer
         public static Hosts Instance { get { return lazy.Value; } }
 
 
-        //private const string filePath = "C:\\Windows\\System32\\drivers\\etc\\hosts";
-        private const string filePath = "C:\\hosts.txt";
+        private const string filePath = "C:\\Windows\\System32\\drivers\\etc\\hosts";
 
         private List<string> _commentLines = new List<string>();
         public List<string> CommentLines

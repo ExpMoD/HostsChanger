@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Host Changer.exe" size="39392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Host Changer.exe" size="39904">
       <assemblyIdentity name="Host Changer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8vIOzuAZbae9YZZTXOSGpMJkFsyDjjmvoGAXFAAusYY=</dsig:DigestValue>
+        <dsig:DigestValue>FdNZB5CbVt3DHAK3PTJiVq2dUOTfQSnzctCcFQhVRkM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
